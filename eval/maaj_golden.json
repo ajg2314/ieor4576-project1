@@ -1,0 +1,12 @@
+[
+    {"id":"g01","question":"Is E[X] a random variable?","expected":"E[X] is a constant. "},
+    {"id":"g02","question":"State the general tower property.","expected":"If E|X|<∞ and G⊆F are sigma-algebras, then E[E[X|G]|F] = E[X|G]."},
+    {"id":"g03","question":"State Bayes' rule.","expected":"P(A|B)=P(B|A)P(A)/P(B) for P(B)>0."},
+    {"id":"g04","question":"What is E[X] for X~Bernoulli(p)?","expected":"E[X]=p."},
+    {"id":"g05","question":"What is Var(X) for X~Bernoulli(p)?","expected":"Var(X)=p(1-p)."},
+    {"id":"g06","question":"Mean and variance of Binomial(n,p)?","expected":"E[X]=np and Var(X)=np(1-p)."},
+    {"id":"g07","question":"Poisson(λ) pmf?","expected":"P(X=k)=e^{-λ} λ^k / k! for k=0,1,2,..."},
+    {"id":"g08","question":"Geometric(p) pmf (trials until first success)?","expected":"P(X=k)=(1-p)^{k-1}p for k=1,2,..."},
+    {"id":"g09","question":"State LLN informally.","expected":"For many i.i.d. random variables with finite mean, the sample average gets close to the expected value when the number of samples is large."},    
+    {"id":"g10","question":"State CLT informally.","expected":"For many i.i.d. random variables with finite mean and variance, the properly standardized sum is approximately normal when the sample size is large."}
+]

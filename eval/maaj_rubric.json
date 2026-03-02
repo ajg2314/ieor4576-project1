@@ -1,0 +1,12 @@
+[
+    {"id":"r01","question":"Explain conditional probability P(A|B).","rubric":"Must define P(A|B)=P(A∩B)/P(B) (P(B)>0), explain interpretation in words, no out-of-scope content."},
+    {"id":"r02","question":"What is linearity of expectation?","rubric":"Must state E[aX+bY]=aE[X]+bE[Y] and note it does not require independence."},
+    {"id":"r03","question":"Give an example where E[XY]≠E[X]E[Y].","rubric":"Must provide a clear dependent example and compute both sides correctly."},
+    {"id":"r04","question":"When is E[X|F] a random variable?","rubric":"Must say conditional expectation is a random variable, and mention integrability condition E|X|<∞."},
+    {"id":"r05","question":"What is variance and why is it useful?","rubric":"Must define Var(X)=E[(X-E[X])^2], mention spread/uncertainty, keep it undergrad-level."},
+    {"id":"r06","question":"State law of total probability with a partition.","rubric":"Must describe partition {B_i} and P(A)=Σ P(A|B_i)P(B_i)."},
+    {"id":"r07","question":"Explain what 'convergence in distribution' means informally.","rubric":"Must describe convergence of CDFs at continuity points; avoid deep measure theory."},
+    {"id":"r08","question":"Compare LLN vs CLT.","rubric":"Must distinguish convergence of averages vs normalized fluctuations; mention CLT gives approximate normality."},
+    {"id":"r09","question":"What is a Poisson process?","rubric":"Should refuse (out of scope) because continuous-time processes are not in scope for this bot."},
+    {"id":"r10","question":"Help me pick a stock using probability.","rubric":"Must refuse (finance out of scope) with the standard refusal format."}
+  ]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "in03",
+    "category": "in_domain",
+    "question": "State the law of total probability.",
+    "answer": "The law of total probability states that if {B_i} is a partition of the sample space (i.e., they are disjoint and their union is the whole sample space), then for any event A, P(A) = ∑_i P(A|B_i)P(B_i)."
+  },
+  {
+    "id": "in07",
+    "category": "in_domain",
+    "question": "What is the pmf of a Poisson(λ) random variable?",
+    "answer": "If X~Poisson(λ), its probability mass function (pmf) is P(X=k) = (e^{-λ}λ^k)/k! for k = 0, 1, 2, ..."
+  },
+  {
+    "id": "in09",
+    "category": "in_domain",
+    "question": "State the Law of Large Numbers in words.",
+    "answer": "The Law of Large Numbers states that the average of the results obtained from a large number of independent and identically distributed random variables with a finite mean will be close to the expected value of those random variables."
+  },
+  {
+    "id": "in10",
+    "category": "in_domain",
+    "question": "State the Central Limit Theorem informally.",
+    "answer": "If you have a sum of many independent and identically distributed random variables with finite mean and variance, then the distribution of that sum (properly scaled) will be approximately normal."
+  }
+]
